@@ -210,8 +210,8 @@ class _MyHomePageState extends State<MyHomePage> {
        
         ],
        ),
-       labels(Icons.location_on, "text1", "text2"),
-       labels(Icons.lock, "text1", "text2"),
+       labels(Icons.location_on, "Address", "Ensure your harvesting address"),
+       labels(Icons.lock, "Privacy", "System permission change"),
        
        
         ],
