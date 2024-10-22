@@ -172,7 +172,7 @@ class _MyHomePageState extends State<MyHomePage> {
                   children: [
                     
                     Icon( Icons.account_balance_wallet),
-                    Text("Collect",style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)),)
+                    Text("Wallet",style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)),)
                   ],
                 ),
                 
@@ -180,7 +180,7 @@ class _MyHomePageState extends State<MyHomePage> {
                Column(
                   children: [
                     Icon( Icons.local_shipping_sharp),
-                    Text("Attention",style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)))
+                    Text("Delevary",style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)))
                   ],
                 ),
                  
@@ -188,7 +188,7 @@ class _MyHomePageState extends State<MyHomePage> {
                  Column(
                   children: [
                      Icon( Icons.message),
-                    Text("Track",style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)))
+                    Text("Messages",style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)))
                   ],
                 ),
                  
@@ -196,7 +196,7 @@ class _MyHomePageState extends State<MyHomePage> {
                  Column(
                   children: [
                     Icon( Icons.monetization_on),
-                    Text("Coupons",style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)))
+                    Text("Service",style: TextStyle(color: const Color.fromARGB(255, 0, 0, 0)))
                   ],
                 ),
          
@@ -212,7 +212,7 @@ class _MyHomePageState extends State<MyHomePage> {
        ),
        labels(Icons.location_on, "Address", "Ensure your harvesting address"),
        labels(Icons.lock, "Privacy", "System permission change"),
-       
+        labels(Icons.lock, "Privacy", "System permission change"),
        
         ],
        
